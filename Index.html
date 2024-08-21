@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NS GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header></header>
+<main class="jogo">
+        <section class = "jogo__todo__conteudo"> 
+            <section class="jogo__conteudo">    
+                <div class="jogo__conteiner">  
+                    <h1 class="jogo__titulo__separado"><strong id = "tituloMudanca">Desafio do <br> número<br>secreto</strong> </h1>
+                    <p id = "consegueAdvinhar" class="jogo__pensamento"></p>
+                    <div class = jogo__espacamento__coluna> 
+                        <p id = "resultadotexto" class="jogo__escolha__numero"><br>Escolha um número entre <span class="escolha__numero__cor">1 </span> e <span class="escolha__numero__cor">100</span></p>
+                    <div>
+                        <label>
+                            <input type="number" id = "entrada" class="jogo__caixa__texto" min="1" max ="100"/>
+                        </label>
+                    </div>
+                    <div class="jogo__botao__posicao"> 
+                        <button id="botao" class="jogo__botao1">Chutar</button>
+                        <button id= "novoJogo" class="jogo__botao2">Novo jogo</button>
+                    </div> 
+                    <p id = "tentativas" (numeros para contagem)></p>
+                </div>
+            </div> 
+        </section> 
+        <img id = 'iaMulher' class="jogo__imagem__ia" src="Imagens/cyborg_mulher.png" alt="Mulher ciborgue de peles claras">
+        <img class ="jogo__imagem__frente" src="Imagens/codigo.png">
+    </section> 
+    </main>
+    <footer></footer>
+    <script src = "app.js"></script>
+</body>
+</html>
